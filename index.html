@@ -463,7 +463,122 @@
             </li>
           </ul>
         </div>
+        <!-- #region form-footer -->
+        <div class="form-footer">
+          <form class="form-container">
+            <label>
+              Subscribe
+              <input
+                type="email"
+                name="useremail"
+                placeholder="E-mail"
+                required
+                class="footer-input"
+              />
+            </label>
+            <button type="submit" class="sub-btn">
+              Subscribe
+              <svg class="sub-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-airplane"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+        <!-- #endregion form-footer -->
       </div>
     </footer>
+
+    <!-- #region modal overlay -->
+
+    <div class="modal-overlay">
+      <div class="modal">
+        <button type="button" class="btn-modal-close">
+          <svg class="close-icon-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form clas="modal-form">
+          <div class="field-wrapper">
+            <label class="label-field" for="username">Name</label>
+            <div class="input-wrapper">
+              <input
+                class="input-field"
+                type="text"
+                id="username"
+                name="username"
+                required
+              />
+              <svg class="field-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="field-wrapper">
+            <label class="label-field" for="usertel">Phone</label>
+            <div class="input-wrapper">
+              <input
+                class="input-field"
+                type="tel"
+                id="usertel"
+                name="usertel"
+                required
+              />
+              <svg class="field-icon" width="13" height="13">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="field-wrapper">
+            <label class="label-field" for="useremail">Email</label>
+            <div class="input-wrapper">
+              <input
+                class="input-field"
+                type="email"
+                id="useremail"
+                name="useremail"
+                required
+              />
+              <svg class="field-icon" width="15" height="12">
+                <use href="./images/icons.svg#icon-letter"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="field-comment">
+            <label class="label-field" for="comment">Comment</label>
+            <textarea
+              class="comment-area"
+              id="comment"
+              name="comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <div class="field-policy">
+            <input
+              class="policy-checkbox hidden-title"
+              type="checkbox"
+              class="check-input"
+              id="policy"
+              name="policy"
+              value="true"
+            />
+            <label for="policy" class="policy-text">
+              <span class="custom-checkbox">
+                <svg class="confirm-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-confirm"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="privacy-accent">Privacy Policy</a></label
+            >
+          </div>
+          <button type="submit" class="btn-send">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- #endregion modal overlay -->
   </body>
 </html>
