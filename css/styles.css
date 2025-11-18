@@ -661,6 +661,7 @@ footer {
   margin: 0;
   border-style: none;
   position: absolute;
+  top: 0;
   left: 288px;
 }
 
@@ -814,9 +815,9 @@ footer {
   fill: #4d5ae5;
 }
 
-/* .field-comment {
+.field-comment {
   margin-bottom: 16px;
-} */
+}
 
 .comment-area {
   border: 1px solid rgba(46, 47, 66, 0.4);
