@@ -465,9 +465,9 @@
         </div>
         <!-- #region form-footer -->
         <div class="form-footer">
+          <p class="sub-text">Subscribe</p>
           <form class="form-container">
-            <label>
-              Subscribe
+            <label class="form-label-ftr">
               <input
                 type="email"
                 name="useremail"
@@ -500,16 +500,16 @@
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form clas="modal-form">
           <div class="field-wrapper">
-            <label class="label-field" for="username">Name</label>
+            <label class="label-field" for="user-name">Name</label>
             <div class="input-wrapper">
               <input
                 class="input-field"
                 type="text"
-                id="username"
-                name="username"
+                id="user-name"
+                name="user-name"
                 required
               />
-              <svg class="field-icon" width="12" height="12">
+              <svg class="field-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
@@ -524,7 +524,7 @@
                 name="usertel"
                 required
               />
-              <svg class="field-icon" width="13" height="13">
+              <svg class="field-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
@@ -539,32 +539,31 @@
                 name="useremail"
                 required
               />
-              <svg class="field-icon" width="15" height="12">
+              <svg class="field-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-letter"></use>
               </svg>
             </div>
           </div>
 
           <div class="field-comment">
-            <label class="label-field" for="comment">Comment</label>
+            <label class="label-field" for="user-comment">Comment</label>
             <textarea
               class="comment-area"
-              id="comment"
-              name="comment"
+              id="user-comment"
+              name="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
 
           <div class="field-policy">
             <input
-              class="policy-checkbox hidden-title"
+              class="policy-checkbox visually-hidden"
               type="checkbox"
-              class="check-input"
-              id="policy"
-              name="policy"
+              id="user-privacy"
+              name="user-privacy"
               value="true"
             />
-            <label for="policy" class="policy-text">
+            <label for="user-privacy" class="policy-text">
               <span class="custom-checkbox">
                 <svg class="confirm-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-confirm"></use>
